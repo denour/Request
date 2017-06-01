@@ -2,6 +2,7 @@
     "name": "denour/request",
     "description": "Get the Information from where a Request is send",
     "type": "library",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -15,7 +16,7 @@
     },
     "autoload":{
         "psr-4": {
-            "Denour\\": "src/"
+            "Request\\": "src/"
         }
     }
 }
